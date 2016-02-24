@@ -21,6 +21,10 @@
     
     UILabel * label = [[UILabel alloc]init];
     
+    label.frame = CGRectMake(0, 0, 300, 300);
+    
+    [self.view addSubview:label];
+    
 }
 
 - (void)didReceiveMemoryWarning {
