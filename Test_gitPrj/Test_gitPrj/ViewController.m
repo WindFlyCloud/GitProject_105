@@ -14,10 +14,13 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     self.title = @"github 代码修改";
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel * label = [[UILabel alloc]init];
+    
 }
 
 - (void)didReceiveMemoryWarning {
